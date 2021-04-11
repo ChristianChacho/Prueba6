@@ -1,0 +1,47 @@
+/*Es así como se hace un comentario en css*!
+
+/*Css es un lenguaje que nos permite crear estilos para estilizar
+nuestra página WEB*/
+
+/*configurar todo el cuerpo de nuestra página WEB */
+body{
+/*Cambiar el color de fondo:*/
+background-color: bisque ;
+/*Cambiar el color de las letras:*/ 
+color: blue;
+/*Para cambiar la fuente de las letras:*/ 
+font-family: Arial, Helvetica, sans-serif;
+/*Para agregar un espaciado de cualquier borde (izquierda, derecha, arriba y abajo):*/
+padding-left:10em;
+}
+
+/*Mediante esta estructra se puede configurar algo de manera separada:*/
+ul.navbar{
+    /*Para que ignore cualquier estilo:*/ 
+    list-style-type: none;
+    /*Para darle un espaciado con respecto a los demás elementos*/
+    padding: 0;
+    /*Para darle un margen*/
+    margin: 0;
+    /*Para darle una posición: "absolute" significa que puede situarse en 
+    cualquier posición de la página WEB. Sin embargo, se le debe especifcicar 
+    su posición mediante medidas*/
+    position: absolute;
+    /*límite con el borde arriba:*/
+    top: 2em;
+    /*límite con el borde de la izquierda*/
+    left: 1em;
+    width: 9em;
+}
+
+/*Mediante la siguiente estructura se puede configuara algo dentro una clase:*/
+
+ul.navbar li {
+    background-color: white;
+    /*con margin se especifican las medidas: arriba, izquierda, derecha y abajo:*/
+    margin:0.5em 0 0 0.5em;
+    padding: 0.5em;
+    /*para darle un borde*/
+    border-right: 1em solid black;
+    
+}
